@@ -1,0 +1,10 @@
+.mainContent, .card-body{
+    background-color: rgb(255, 253, 253);
+}
+.albumpy-5bg-light{
+    background-color: #333333;
+}
+.card.mb-4.box-shadow{
+    padding: 5px;
+    background-color: grey;
+}
