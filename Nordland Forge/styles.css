@@ -4,7 +4,28 @@
 .albumpy-5bg-light{
     background-color: #333333;
 }
-.card.mb-4.box-shadow{
+.card{
     padding: 5px;
-    background-color: grey;
+    border-radius: 5px;
+    background-color: black;
+}
+
+img{
+    height: 400px;
+    width: auto;
+}
+
+.btn-group {
+    display: flex;
+    outline: none;
+    cursor: pointer;
+    min-width: 113px;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 24px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background: #2B3044;
 }
