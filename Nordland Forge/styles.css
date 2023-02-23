@@ -19,14 +19,13 @@ ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  white-space: nowrap;
+
 }
 
 /* This code is just to style the inner div elements. */
 .flex-container > div {
-  background-color: beige;
-  margin: 5%;
-  width: 15%;
-  margin: 3em;
+  width: 10em;
   text-align: center;
   line-height: 2em;
   font-size: 1.5em;
@@ -48,11 +47,12 @@ ul {
   background-color: black;
 }
 
-.mb-4 > img {
+.mb-4 img {
   height: 400px;
   width: auto;
 }
 
+/* This is all for the Nav bar button */
 .btn-group {
   display: flex;
   outline: none;
@@ -64,6 +64,28 @@ ul {
   font-family: inherit;
   font-weight: 600;
   font-size: 14px;
-  color: #fff;
-  background: #2b3044;
 }
+
+.navbar-toggler {
+  border-radius: 5px;
+  padding: .5em .5em;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 40px;
+  position: relative;
+  display: inline-block;
+}
+ 
+.navbar-toggler-icon {
+  background-color: rgb(69, 69, 69);
+  border-radius: 2px;   
+}
+
+.navbar-toggler:hover {
+  transform: scale(1.5);
+  transition: all .2s ease-in-out;
+  border-radius: 10px;
+  border: 10px;
+ }
+
+/* Last rule for navbar button */
