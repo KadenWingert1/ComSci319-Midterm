@@ -1,31 +1,66 @@
-.mainContent, .card-body{
-    background-color: rgb(255, 253, 253);
+.title {
+  font-family: "Shojumaru", cursive;
+  font-weight: bold;
+  font-size: 500%;
 }
-.albumpy-5bg-light{
-    background-color: #333333;
+.foot .title {
+  font-family: "Shojumaru", cursive;
+  font-weight: bold;
+  font-size: 300%;
 }
-.card{
-    padding: 5px;
-    border-radius: 5px;
-    background-color: black;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
-img{
-    height: 400px;
-    width: auto;
+/* This code is just to style the inner div elements. */
+.flex-container > div {
+    background-color:antiquewhite;
+  width: 20%;
+  margin: 3em;
+  text-align: center;
+  line-height: 2em;
+  font-size: 1.5em;
+}
+
+.text-muted {
+  margin: 10px;
+}
+.mainContent,
+.card-body {
+  background-color: rgb(255, 253, 253);
+}
+.albumpy-5bg-light {
+  background-color: #333333;
+}
+.card {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.mb-4 > img {
+  height: 400px;
+  width: auto;
 }
 
 .btn-group {
-    display: flex;
-    outline: none;
-    cursor: pointer;
-    min-width: 113px;
-    padding: 10px;
-    border-radius: 10px;
-    line-height: 24px;
-    font-family: inherit;
-    font-weight: 600;
-    font-size: 14px;
-    color: #fff;
-    background: #2B3044;
+  display: flex;
+  outline: none;
+  cursor: pointer;
+  min-width: 113px;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 24px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background: #2b3044;
 }

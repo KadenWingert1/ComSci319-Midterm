@@ -15,47 +15,64 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <!-- Title font from google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="styles.css" />
 
     <title>Nordland Forge</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet" />
-
     <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <div class="collapse bg-dark" id="navbarHeader">
         <div class="container">
           <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Navigation</h4>
+              <ul>
+                <li class="Credits"><a href="credits.html">Credits</a></li>
+                <li class="about"><a href="about.html">My Story</a></li>
+                <li class="home"><a href="index.html">Home</a></li>
+              </ul>
+            </div>
             <div class="col-sm-4 offset-md-1 py-4">
               <h4 class="text-white">Contact</h4>
               <ul class="list-unstyled">
-                <li><a href="#" class="text-white">Like on Facebook</a></li>
+                <li>
+                  <a
+                    href="https://instagram.com/nordland_forge?igshid=YmMyMTA2M2Y="
+                    >Follow me on Instagram</a
+                  >
+                </li>
                 <li><a href="#" class="text-white">Email me</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="navbar navbar-dark bg-dark box-shadow">
-        <img
-          src="companyLogo.png"
-          alt="Company Logo"
-          width="100rem"
-          height="100rem"
-        />
-        <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center"></a>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="index.html"
+            ><img
+              src="companyLogo.png"
+              alt="Company Logo"
+              width="100rem"
+              height="100rem"
+          /></a>
           <button
             class="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarHeader"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarHeader"
             aria-controls="navbarHeader"
-            aria-expanded="false"
+            aria-expanded="true"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
@@ -67,7 +84,7 @@
     <main role="main">
       <div class="mainContent">
         <section>
-          <h1 style="text-align: center">Nordland Forge</h1>
+          <h1 class="title" style="text-align: center">Nordland Forge</h1>
         </section>
         <p class="text-muted" style="text-align: center">
           Walk your own path and leave no stone unturned. Definitely what I
@@ -90,16 +107,19 @@
                   <div class="card-body">
                     <p class="card-text">Every Day Carry Pocket Knives</p>
                     <div
-                      class="d-flex justify-content-between align-items-center">
+                      class="d-flex justify-content-between align-items-center"
+                    >
                       <div class="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary">
+                          class="btn btn-sm btn-outline-secondary"
+                        >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary">
+                          class="btn btn-sm btn-outline-secondary"
+                        >
                           Edit
                         </button>
                       </div>
@@ -115,16 +135,19 @@
                       Choose From a Variety of Handcrafted Swords
                     </p>
                     <div
-                      class="d-flex justify-content-between align-items-center">
+                      class="d-flex justify-content-between align-items-center"
+                    >
                       <div class="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary">
+                          class="btn btn-sm btn-outline-secondary"
+                        >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary">
+                          class="btn btn-sm btn-outline-secondary"
+                        >
                           Edit
                         </button>
                       </div>
@@ -138,16 +161,19 @@
                   <div class="card-body">
                     <p class="card-text">Daggers</p>
                     <div
-                      class="d-flex justify-content-between align-items-center">
+                      class="d-flex justify-content-between align-items-center"
+                    >
                       <div class="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary">
+                          class="btn btn-sm btn-outline-secondary"
+                        >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary">
+                          class="btn btn-sm btn-outline-secondary"
+                        >
                           Edit
                         </button>
                       </div>
@@ -157,20 +183,23 @@
               </div>
               <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
-                  <img src="resinWork.png" alt="Resin Work"/>
+                  <img src="resinWork.png" alt="Resin Work" />
                   <div class="card-body">
                     <p class="card-text">Resin Work</p>
                     <div
-                      class="d-flex justify-content-between align-items-center">
+                      class="d-flex justify-content-between align-items-center"
+                    >
                       <div class="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary">
+                          class="btn btn-sm btn-outline-secondary"
+                        >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary">
+                          class="btn btn-sm btn-outline-secondary"
+                        >
                           Edit
                         </button>
                       </div>
@@ -180,22 +209,25 @@
               </div>
               <div class="col-md-4">
                 <div class="card mb-4 box-shadow">
-                  <img src="customOrder.jpg" alt="Custom Orders"/>
+                  <img src="customOrder.jpg" alt="Custom Orders" />
                   <div class="card-body">
                     <p class="card-text">
                       For something unique, try our Custom Orders
                     </p>
                     <div
-                      class="d-flex justify-content-between align-items-center">
+                      class="d-flex justify-content-between align-items-center"
+                    >
                       <div class="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary">
+                          class="btn btn-sm btn-outline-secondary"
+                        >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary">
+                          class="btn btn-sm btn-outline-secondary"
+                        >
                           Edit
                         </button>
                       </div>
@@ -208,26 +240,6 @@
         </div>
       </div>
     </main>
-
-    <footer class="text-muted">
-      <div class="container">
-        <p class="float-right"></p>
-        <h1>Nordland Forge</h1>
-        <ul>
-          <li class="backToTop"><a href="#">Back to top</a></li>
-          <li class="about"><a href="about.html">About Us</a></li>
-          <li class="insta">
-            <a
-              href="https://instagram.com/nordland_forge?igshid=YmMyMTA2M2Y=
-            "
-              >Follow me on Instagram</a
-            >
-          </li>
-          <li class="Credits"><a href="credits.html">Credits</a></li>
-        </ul>
-      </div>
-    </footer>
-    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -243,8 +255,28 @@
           '<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>'
         );
     </script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
   </body>
+
+  <div class="foot">
+    <footer class="text-muted">
+      <div class="container">
+        <h1 class="title">Nordland Forge</h1>
+
+        <div class="flex-container">
+          <div class="footerList" name="home"><a href="#">Home</a></div>
+          <div class="footerList" name="about"><a href="about.html">About Us</a></div>
+          <div class="footerList" name="socials">Follow Us  <br>
+            <a href="https://www.instagram.com/nordland_forge/"><img src="instagram.jfif" alt="Instagram Logo" width="30%"></a>
+            <a href="https://www.tiktok.com/@nordlandforge?_t=8a7j7ED2n4o&_r=1"><img src="tiktok.png" alt="TikTok" width="30%"></a> <br>
+          </div>
+          <div class="footerList" name="contact">Contact Us</a> <br>
+          <a href="carvergfit@gmail.com"><img src="email.png" alt="Email" width="30%"> </a> <br>
+            Phone:<a href="712-324-2344"> 712-324-2344</a>
+        </div>
+          <div class="footerList" name="credits"><a href="credits.html">Credits</a></div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
 </html>
