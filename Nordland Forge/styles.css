@@ -21,7 +21,7 @@ ul {
 
 /* This code is just to style the inner div elements. */
 .flex-container > div {
-    background-color:antiquewhite;
+
   width: 20%;
   margin: 3em;
   text-align: center;
