@@ -20,8 +20,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet"/>
+<!-- Font for class: "motto" -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
-      <script src="functions.js"></script>
+      <script src="index.js"></script>
     <link rel="stylesheet" href="styles.css" />
 
     <title>Nordland Forge</title>
@@ -34,12 +38,15 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">Navigation</h4>
+              <h4 class="text-white">Menu</h4>
+              <div class = "navFlexBox">
+               
               <ul>
-                <li class="Credits"><a href="credits.html">Credits</a></li>
-                <li class="about"><a href="about.html">My Story</a></li>
-                <li class="home"><a href="index.html">Home</a></li>
+                <li class="credits"><a href="credits.html" style="text-decoration: none; font-size: 1.25em;">Credits</a></li><br>
+                <li class="about"><a href="about.html" style="text-decoration: none; font-size: 1.25em">My Story</a></li><br>
+                <li class="home"><a href="index.html" style="text-decoration: none; font-size: 1.25em">Home</a></li> <br>
               </ul>
+            </div>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
               <h4 class="text-white">Contact</h4>
@@ -47,10 +54,9 @@
                 <li>
                   <a
                     href="https://instagram.com/nordland_forge?igshid=YmMyMTA2M2Y="
-                    >Follow me on Instagram</a
-                  >
+                    >Follow me on Instagram <img src="instagramBlackandWhite.png" alt="Instagram Logo" height="40em"></a>
                 </li>
-                <li><a href="#" class="text-white">Email me</a></li>
+                <li><a href="carvergfit@gmail.com" class="text-white">Email me <img src="emailBlackandWhite.png" alt="Email" height="40em"></a></li>
               </ul>
             </div>
           </div>
@@ -66,6 +72,7 @@
               height="100rem"
               id = "companyLogo"
           /></a>
+            <h1 class="title" id = "title" style="text-align: center">Nordland Forge</h1>
           <button
           onclick= openNavBar()
             class="navbar-toggler"
@@ -78,21 +85,10 @@
 
     <main role="main">
       <div class="mainContent">
-        <section>
-          <h1 class="title" style="text-align: center">Nordland Forge</h1>
-        </section>
-        <p class="text-muted" style="text-align: center">
-          Walk your own path and leave no stone unturned. Definitely what I
-          would say to describe my life’s journey.
-        </p>
-        <br />
-        During the recent pandemic, I went to the Bridger Forge shop with my
-        friend ,Colton, to learn how to make knives, he let me use his shop to
-        make and sell my own creations. And without him my life would not be
-        what it is today. Colton decided to make me his apprentice, and ever
-        since then I have continued to make progress with his teachings. We plan
-        on expanding our businesses and our names in this trade.
 
+        <h1 class="motto" style="text-align: center">
+          Walk your own path and leave no stone unturned
+        </h1>
         <div class="albumpy-5bg-light">
           <div class="container">
             <div class="row">
@@ -251,9 +247,9 @@
         );
     </script>
   </body>
-
+  <footer class="text-muted">
   <div class="foot">
-    <footer class="text-muted">
+    
       <div class="container">
         <h1 class="title">Nordland Forge</h1>
 
@@ -262,15 +258,15 @@
           <div class="footerList" name="about"><a href="about.html">About Us</a></div>
           <div class="footerList" name="socials">Follow Us  <br>
             <a href="https://www.instagram.com/nordland_forge/"><img src="instagram.jfif" alt="Instagram Logo" width="60em"></a>
-            <a href="https://www.tiktok.com/@nordlandforge?_t=8a7j7ED2n4o&_r=1"><img src="tiktok.png" alt="TikTok" width="60em"></a> <br>
+            <a href="https://www.tiktok.com/@nordlandforge?_t=8a7j7ED2n4o&_r=1"><img src="tiktok.png" alt="TikTok" width="60em"></a>
           </div>
-          <div class="footerList" name="contact">Contact Us</a> <br>
+          <div class="footerList" name="contact">Contact Us</a>
             <a href="carvergfit@gmail.com"><img src="email.png" alt="Email" width="60em"> </a><a href="712-324-2344"> 712-324-2344</a>
         </div>
           <div class="footerList" name="credits"><a href="credits.html">Credits</a></div>
 
         </div>
       </div>
-    </footer>
   </div>
+</footer>
 </html>

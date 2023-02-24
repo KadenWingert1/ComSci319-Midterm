@@ -3,6 +3,20 @@
   font-weight: bold;
   font-size: 300%;
   flex-wrap: wrap;
+  color: rgb(250, 135, 135);
+}
+.mainContent {
+  background-color: #d3d3d3;
+}
+
+/* These are for the footer */
+footer {
+  margin-top: 2em;
+  background-color: #ffffff;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
 }
 .foot .title {
   font-family: "Shojumaru", cursive;
@@ -15,26 +29,30 @@ ul {
   margin: 0;
   padding: 0;
 }
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  white-space: nowrap;
+/* These are for the last rules for the footer */
 
+/*Used in the about page*/
+.motto {
+  font-family: "Anton", sans-serif;
+  padding: 0.75em;
+  background-image: url("background.png");
+  margin-bottom: 0px;
 }
+#aboutLastParagraph {
+  padding-bottom: 1em;
+}
+/* Laste rule for about page */
 
-/* This code is just to style the inner div elements. */
-.flex-container > div {
+/* These rules are all for the cards */
+.row{
+  justify-content: space-evenly;
+}
+.flex-container div {
   width: 10em;
   text-align: center;
   line-height: 2em;
   font-size: 1.5em;
 }
-
-.text-muted {
-  margin: 10px;
-}
-.mainContent,
 .card-body {
   background-color: rgb(255, 253, 253);
 }
@@ -42,50 +60,72 @@ ul {
   background-color: #333333;
 }
 .card {
-  padding: 5px;
+  padding: 0.25em;
+  margin: 1em;
   border-radius: 5px;
   background-color: black;
 }
-
 .mb-4 img {
   height: 400px;
   width: auto;
 }
+/* Last rule for the cards */
 
-/* This is all for the Nav bar button */
-.btn-group {
-  display: flex;
-  outline: none;
-  cursor: pointer;
-  min-width: 113px;
-  padding: 10px;
-  border-radius: 10px;
-  line-height: 24px;
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 14px;
+/* This is all for the Nav bar */
+.col-sm-8{
+  width: 20%;
+  height: auto;
 }
+.navFlexBox{
+  display:flex;
+  border: 10px;
+}
+
+
+.credits, .about, .home {
+  margin: 2em auto;
+  width: 100px;
+  color: white;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em 0.5em;
+  cursor: pointer;
+  background: linear-gradient(#252525, #252525 50%,  rgb(250, 135, 135) 50%,  rgb(250, 135, 135));
+  background-size: 100% 200%;
+
+  /*trasition effect for background*/
+  transition: background .5s;
+}
+
+
+.credits:hover, .about:hover, .home:hover {
+  background-position: 100% 100%;
+}
+
 
 .navbar-toggler {
   border-radius: 5px;
-  padding: .5em .5em;
+  padding: 0.5em 0.5em;
   font-size: 22px;
   text-decoration: none;
   margin: 40px;
   position: relative;
   display: inline-block;
 }
- 
+
 .navbar-toggler-icon {
   background-color: rgb(69, 69, 69);
-  border-radius: 2px;   
+  border-radius: 2px;
 }
 
 .navbar-toggler:hover {
   transform: scale(1.5);
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   border-radius: 10px;
   border: 10px;
- }
-
+}
 /* Last rule for navbar button */

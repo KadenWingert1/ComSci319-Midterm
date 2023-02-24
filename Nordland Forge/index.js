@@ -2,6 +2,7 @@
 function openNavBar() {
     var x = document.getElementById("navbarHeader");
     var logo = document.getElementById("companyLogo");
+    var companyName = document.getElementById("title");
     if (x.style.display === "none") {
       x.style.display = "block";
       logo.style.display = "none";
