@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,10 +19,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet"/>
+      href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font for class: "motto" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
 
-      <script src="index.js"></script>
-    <link rel="stylesheet" href="styles.css"/>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Nordland Forge</title>
 
@@ -35,12 +43,35 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">Navigation</h4>
-              <ul>
-                <li class="Credits"><a href="credits.html">Credits</a></li>
-                <li class="about"><a href="about.html">My Story</a></li>
-                <li class="home"><a href="index.html">Home</a></li>
-              </ul>
+              <h4 class="text-white">Menu</h4>
+              <div class="navFlexBox">
+                <ul>
+                  <li class="credits">
+                    <a
+                      href="credits.html"
+                      style="text-decoration: none; font-size: 1.25em"
+                      >Credits</a
+                    >
+                  </li>
+                  <br />
+                  <li class="about">
+                    <a
+                      href="about.html"
+                      style="text-decoration: none; font-size: 1.25em"
+                      >My Story</a
+                    >
+                  </li>
+                  <br />
+                  <li class="home">
+                    <a
+                      href="index.html"
+                      style="text-decoration: none; font-size: 1.25em"
+                      >Home</a
+                    >
+                  </li>
+                  <br />
+                </ul>
+              </div>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
               <h4 class="text-white">Contact</h4>
@@ -48,10 +79,19 @@
                 <li>
                   <a
                     href="https://instagram.com/nordland_forge?igshid=YmMyMTA2M2Y="
-                    >Follow me on Instagram</a
-                  >
+                    >Follow me on Instagram
+                    <img
+                      src="instagramBlackandWhite.png"
+                      alt="Instagram Logo"
+                      height="40em"
+                  /></a>
                 </li>
-                <li><a href="#" class="text-white">Email me</a></li>
+                <li>
+                  <a href="mailto:carvergfit@gmail.com" class="text-white"
+                    >Email me
+                    <img src="emailBlackandWhite.png" alt="Email" height="40em"
+                  /></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -65,80 +105,93 @@
               alt="Company Logo"
               width="100rem"
               height="100rem"
-              id = "companyLogo"
+              id="companyLogo"
           /></a>
-            <h1 class="title" id = "title" style="text-align: center">Nordland Forge</h1>
-          <button
-          onclick= openNavBar()
-            class="navbar-toggler"
-            type="button">
+          <h1 class="title" id="title" style="text-align: center">
+            Nordland Forge
+          </h1>
+          <button onclick="openNavBar()" class="navbar-toggler" type="button">
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
       </div>
     </header>
 
-          <main role="main">
-            <div class="mainContent">
-      
-              <h1 id="aboutPar" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:3.5em; color: rgba(51, 39, 39, 0.744); font-weight: bolder;">My Story</h1>
-              <div class = "story">
-              <p>
-                <br>
-                During the recent pandemic, I went to the Bridger Forge shop with my
-                friend ,Colton, to learn how to make knives, he let me use his shop to
-                make and sell my own creations. And without him my life would not be
-                what it is today. Colton decided to make me his apprentice, and ever
-                since then I have continued to make progress with his teachings. We plan
-                on expanding our businesses and our names in this trade.
-              </p>
-              <p>
-                At a young age, I fell in love with medieval fantasy. Especially with
-                the swords. There was always something about blades that attracted me.
-                I loved the artistry behind it. Every blade has a symbolic meaning, as
-                if they are sacred. For example in Europe, the English swords were
-                designed to resemble the cathedral. With my love for blades, and sheer
-                luck. I became lucky enough to find this passion.
-              </p>
-      
-              <p>
-                Ever since I was 13 I decided to start lifting weights. Throughout the
-                years of strict eating, building up my mental fortitude and
-                determination. I eventually decided to compete in bodybuilding shows.
-                My third show, I met Colton Arias. Luck tends to follow hard work. And
-                I was definitely lucky to meet Colton. I had just bought my own forge
-                back home a few weeks before that show. Got talking backstage with him
-                about bladesmithing and telling him that. He mentioned that he was
-                going on Forged In Fire in a few weeks. He ended up winning his first
-                champion title. We kept in touch throughout that year, we both
-                transitioned into college. We got chatting about bodybuilding and how
-                I wanted him to join my team Awaken the Warrior. He ended up driving
-                three hours to where I was going to college at the time. We found out
-                that we have way to much in common and became best friends, if not
-                brothers. Later went up to my coaches gym and he eventually joined the
-                team. As the months went on I took a few trips up to Lincoln to hang
-                out with him. He made me a few knives and showed me how.
-              </p>
-      
-              <p id = "aboutLastParagraph">
-                Coronavirus hit the U.S. and the world stopped in place. During the
-                lockdown I was doing online classes. I knew college wasn’t for me. Too
-                many people go without knowing what they want, everyone ends up
-                getting a safe job and they waste their lives at it. They never really
-                find their passion. That wasn’t my path. I was already taking the
-                unconventional route with trying to make it as a pro bodybuilder and
-                having my name rise through the fitness industry. Flustered with
-                myself and the direction I want my life to go. I decided to leave
-                college, move to Lincoln and get a job. I went to the Bridger Forge
-                shop with Colton to learn how to make knives, he let me use his shop
-                to make and sell my own creations. And without him my life would not
-                be what it is today. Colton decided to make me his apprentice, and
-                ever since then I have continued to make progress with his teachings.
-                We plan on expanding our businesses and our names in this trade.
-              </p>
-            </div>
-            </div>
-          </main>
+    <main role="main">
+      <div class="mainContent">
+        <h1
+          id="aboutPar"
+          style="
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+            font-size: 3.5em;
+            color: rgba(51, 39, 39, 0.744);
+            font-weight: bolder;
+          "
+        >
+          My Story
+        </h1>
+        <div class="story">
+          <p>
+            <br />
+            During the recent pandemic, I went to the Bridger Forge shop with my
+            friend ,Colton, to learn how to make knives, he let me use his shop
+            to make and sell my own creations. And without him my life would not
+            be what it is today. Colton decided to make me his apprentice, and
+            ever since then I have continued to make progress with his
+            teachings. We plan on expanding our businesses and our names in this
+            trade.
+          </p>
+          <p>
+            At a young age, I fell in love with medieval fantasy. Especially
+            with the swords. There was always something about blades that
+            attracted me. I loved the artistry behind it. Every blade has a
+            symbolic meaning, as if they are sacred. For example in Europe, the
+            English swords were designed to resemble the cathedral. With my love
+            for blades, and sheer luck. I became lucky enough to find this
+            passion.
+          </p>
+
+          <p>
+            Ever since I was 13 I decided to start lifting weights. Throughout
+            the years of strict eating, building up my mental fortitude and
+            determination. I eventually decided to compete in bodybuilding
+            shows. My third show, I met Colton Arias. Luck tends to follow hard
+            work. And I was definitely lucky to meet Colton. I had just bought
+            my own forge back home a few weeks before that show. Got talking
+            backstage with him about bladesmithing and telling him that. He
+            mentioned that he was going on Forged In Fire in a few weeks. He
+            ended up winning his first champion title. We kept in touch
+            throughout that year, we both transitioned into college. We got
+            chatting about bodybuilding and how I wanted him to join my team
+            Awaken the Warrior. He ended up driving three hours to where I was
+            going to college at the time. We found out that we have way to much
+            in common and became best friends, if not brothers. Later went up to
+            my coaches gym and he eventually joined the team. As the months went
+            on I took a few trips up to Lincoln to hang out with him. He made me
+            a few knives and showed me how.
+          </p>
+
+          <p id="aboutLastParagraph">
+            Coronavirus hit the U.S. and the world stopped in place. During the
+            lockdown I was doing online classes. I knew college wasn’t for me.
+            Too many people go without knowing what they want, everyone ends up
+            getting a safe job and they waste their lives at it. They never
+            really find their passion. That wasn’t my path. I was already taking
+            the unconventional route with trying to make it as a pro bodybuilder
+            and having my name rise through the fitness industry. Flustered with
+            myself and the direction I want my life to go. I decided to leave
+            college, move to Lincoln and get a job. I went to the Bridger Forge
+            shop with Colton to learn how to make knives, he let me use his shop
+            to make and sell my own creations. And without him my life would not
+            be what it is today. Colton decided to make me his apprentice, and
+            ever since then I have continued to make progress with his
+            teachings. We plan on expanding our businesses and our names in this
+            trade.
+          </p>
+        </div>
+      </div>
+    </main>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -156,21 +209,33 @@
     </script>
   </body>
   <footer class="text-muted">
+    <div class="foot">
       <div class="container">
         <h1 class="title">Nordland Forge</h1>
 
         <div class="flex-container">
-          <div class="footerList" name="home"><a href="index.html">Home</a></div>
-          <div class="footerList" name="about"><a href="about.html">About Us</a></div>
-          <div class="footerList" name="socials">Follow Us  <br>
-            <a href="https://www.instagram.com/nordland_forge/"><img src="instagram.jfif" alt="Instagram Logo" width="60em"></a>
-            <a href="https://www.tiktok.com/@nordlandforge?_t=8a7j7ED2n4o&_r=1"><img src="tiktok.png" alt="TikTok" width="60em"></a> <br>
+          <div class="footerList" name="home"><a href="#">Home</a></div>
+          <div class="footerList" name="about">
+            <a href="about.html">About Us</a>
           </div>
-          <div class="footerList" name="contact">Contact Us</a> <br>
-            <a href="carvergfit@gmail.com"><img src="email.png" alt="Email" width="60em"> </a><a href="712-324-2344"> 712-324-2344</a>
+          <div class="footerList" name="socials">
+            Follow Us <br />
+            <a href="https://www.instagram.com/nordland_forge/"
+              ><img src="instagram.jfif" alt="Instagram Logo" width="60em"
+            /></a>
+            <a href="https://www.tiktok.com/@nordlandforge?_t=8a7j7ED2n4o&_r=1"
+              ><img src="tiktok.png" alt="TikTok" width="60em"
+            /></a>
+          </div>
+          <div class="footerList" name="contact">Contact Us</div>
+          <a href="mailto:carvergfit@gmail.com"
+            ><img src="email.png" alt="Email" width="60em" /> </a
+          ><br /><a href="tel:1-641-229-5890">1-641-229-5890</a>
         </div>
-          <div class="footerList" name="credits"><a href="credits.html">Credits</a></div>
+        <div class="footerList" name="credits">
+          <a href="credits.html">Credits</a>
         </div>
       </div>
-</footer>
+    </div>
+  </footer>
 </html>

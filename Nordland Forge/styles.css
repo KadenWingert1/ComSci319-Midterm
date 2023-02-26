@@ -129,3 +129,31 @@ ul {
   border: 10px;
 }
 /* Last rule for navbar button */
+
+/* Rules for credits.html */
+.creators{
+  text-align: center;
+  font-family: cursive;
+}
+.creators2{
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.creators3{
+  text-align: center;
+  font-family:monospace;
+}
+/*Last for credits.html */
+
+/*Rules for custom.html */
+.personalInfo{
+text-align: center;
+}
+.customOrderrow2{
+  display: flex;
+}
+.row2Col1{
+  padding-right: 5em;
+}
+
+/*Last rules for custom.html */

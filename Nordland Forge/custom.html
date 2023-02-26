@@ -118,20 +118,103 @@
     </header>
 
     <main role="main">
-      <h1 class="creators">Creators</h1>
-      <h2 class="creators2">
-        This website was created as a midterm project for Computer Science 319
-        by:
-      </h2>
-      <br />
-      <h3 class="creators3">
-        Kaden Wingert (<a href="mailto:kadenwin@iastate.edu"
-          >kadenwin@iastate.edu</a
-        >) <br /><br />
-        Bryce Maloy (<a href="mailto:bsmaloy@iastate.edu">bsmaloy@iastate.edu</a
-        >) <br /><br />
-        2/25/2023
-      </h3>
+      <div class="formContainer">
+        <form action="/action_page.php">
+          <h1>Custom Orders</h1>
+
+          <div class="personalInfo">
+            <label for="fname"><i class="firstName"></i> Full Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="John M. Doe"
+            />
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="john@gmail.com"
+            />
+            <label for="adr"
+              ><i class="fa fa-address-card-o"></i> Address</label
+            >
+            <input
+              type="text"
+              id="adr"
+              name="address"
+              placeholder="542 W. 15th Street"
+            />
+            <div class="row">
+              <div class="col-50">
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  placeholder="New York"
+                />
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY" />
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001" />
+              </div>
+            </div>
+          </div>
+
+          <div class="customOrderrow2">
+            <div class="row2Col1">
+              <p>Blade Style</p>
+              <input type="radio" id="dagger" name="blade" value="dagger" />
+              <label for="dagger">Dagger</label><br />
+              <input type="radio" id="sword" name="blade" value="sword" />
+              <label for="sword">Sword</label><br />
+              <input
+                type="radio"
+                id="pocketKnife"
+                name="blade"
+                value="pocketKnife"
+              />
+              <label for="pocketKnife">Pocket Knife</label><br />
+              <input type="radio" id="resin" name="blade" value="resin" />
+              <label for="resin">Resin Work</label><br />
+            </div>
+          </div>
+          <br />
+          <div class="customOrderrow2">
+            <div class="row2Col2">
+              <p>Steel Type</p>
+              <input
+                type="radio"
+                id="monosteel"
+                name="steel"
+                value="monosteel"
+              />
+              <label for="monosteel">Monosteel</label><br />
+
+              <input type="radio" id="sanMai" name="steel" value="sanai" />
+              <label for="sanmai">San Mai</label><br />
+
+              <input type="radio" id="damascus" name="steel" value="damascus" />
+              <label for="sword">Damascus</label><br />
+            </div>
+          </div>
+
+          <br />
+          <div class="col-50">
+            <p>Size (in inches)</p>
+            <label for="name">Length</label>
+            <input type="text" id="length" name="size" required />
+            <label for="name">Width</label>
+            <input type="text" id="length" name="size" required />
+            <label for="name">Thickness</label>
+            <input type="text" id="thickness" name="size" required />
+          </div>
+          <br />
+          <input type="submit" value="Check Out" />
+        </form>
+      </div>
     </main>
 
     <!-- Bootstrap core JavaScript
