@@ -39,86 +39,85 @@
   </head>
   <body>
     <header>
-        <div class="collapse bg-dark" id="navbarHeader">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8 col-md-7 py-4">
-                <h4 class="text-white">Menu</h4>
-                <div class="navFlexBox">
-                  <ul class="navul">
-                    <li class="home">
-                      <a
-                        href="index.html"
-                        style="text-decoration: none; font-size: 1.25em"
-                        >Home</a
-                      >
-                    </li>
-  
-                    <li class="about">
-                      <a
-                        href="about.html"
-                        style="text-decoration: none; font-size: 1.25em"
-                        >About</a
-                      >
-                    </li>
-                    <li class="credits">
-                      <a
-                        href="credits.html"
-                        style="text-decoration: none; font-size: 1.25em"
-                        >Credits</a
-                      >
-                    </li>
-  
-                  </ul>
-                </div>
-              </div>
-              <div class="col-sm-4 offset-md-1 py-4">
-                <h4 class="text-white">Contact</h4>
-                <ul class="list-unstyled">
-                  <li>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">Menu</h4>
+              <div class="navFlexBox">
+                <ul class="navul">
+                  <li class="home">
                     <a
-                      href="https://instagram.com/nordland_forge?igshid=YmMyMTA2M2Y="
-                      >Follow me on Instagram
-                      <img
-                        src="instagramBlackandWhite.png"
-                        alt="Instagram Logo"
-                        height="40em"
-                    /></a>
+                      href="index.html"
+                      style="text-decoration: none; font-size: 1.25em"
+                      >Home</a
+                    >
                   </li>
-                  <li>
-                    <a href="mailto:carvergfit@gmail.com" class="text-white"
-                      >Email me
-                      <img src="emailBlackandWhite.png" alt="Email" height="40em"
-                    /></a>
+
+                  <li class="about">
+                    <a
+                      href="about.html"
+                      style="text-decoration: none; font-size: 1.25em"
+                      >About</a
+                    >
+                  </li>
+                  <li class="credits">
+                    <a
+                      href="credits.html"
+                      style="text-decoration: none; font-size: 1.25em"
+                      >Credits</a
+                    >
                   </li>
                 </ul>
               </div>
             </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href="https://instagram.com/nordland_forge?igshid=YmMyMTA2M2Y="
+                    >Follow me on Instagram
+                    <img
+                      src="instagramBlackandWhite.png"
+                      alt="Instagram Logo"
+                      height="40em"
+                  /></a>
+                </li>
+                <li>
+                  <a href="mailto:carvergfit@gmail.com" class="text-white"
+                    >Email me
+                    <img src="emailBlackandWhite.png" alt="Email" height="40em"
+                  /></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="navbar navbar-dark bg-dark shadow-sm">
-          <div class="container">
-            <a href="index.html"
-              ><img
-                src="companyLogo.png"
-                alt="Company Logo"
-                width="100rem"
-                height="100rem"
-                id="companyLogo"
-            /></a>
-            <h1 class="title" id="title" style="text-align: center">
-              Nordland Forge
-            </h1>
-            <button onclick="openNavBar()" class="navbar-toggler" type="button">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="index.html"
+            ><img
+              src="companyLogo.png"
+              alt="Company Logo"
+              width="100rem"
+              height="100rem"
+              id="companyLogo"
+          /></a>
+          <h1 class="title" id="title" style="text-align: center">
+            Nordland Forge
+          </h1>
+          <button onclick="openNavBar()" class="navbar-toggler" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-      </header>
+      </div>
+    </header>
 
     <main role="main">
       <div class="formContainer">
-        <form action="/action_page.php">
+        <form class="form">
           <h1>Custom Orders</h1>
 
           <div class="personalInfo">
@@ -128,6 +127,7 @@
               id="fname"
               name="firstname"
               placeholder="John M. Doe"
+              required
             />
             <label for="email"><i class="fa fa-envelope"></i> Email</label>
             <input
@@ -135,6 +135,7 @@
               id="email"
               name="email"
               placeholder="john@gmail.com"
+              required
             />
             <label for="adr"
               ><i class="fa fa-address-card-o"></i> Address</label
@@ -144,6 +145,7 @@
               id="adr"
               name="address"
               placeholder="542 W. 15th Street"
+              required
             />
             <div class="row">
               <div class="col-50">
@@ -153,19 +155,38 @@
                   id="city"
                   name="city"
                   placeholder="New York"
+                  required
                 />
                 <label for="state">State</label>
-                <input type="text" id="state" name="state" placeholder="NY" />
+                <input
+                  type="text"
+                  id="state"
+                  name="state"
+                  placeholder="NY"
+                  required
+                />
                 <label for="zip">Zip</label>
-                <input type="text" id="zip" name="zip" placeholder="10001" />
+                <input
+                  type="text"
+                  id="zip"
+                  name="zip"
+                  placeholder="10001"
+                  required
+                />
               </div>
             </div>
           </div>
 
-          <div class="customOrderrow2">
-            <div class="row2Col1">
-              <p>Blade Style</p>
-              <input type="radio" id="dagger" name="blade" value="dagger" />
+          <div class="customOrderrow2" id="customOrderR2">
+            <div class="row2 col1">
+              <h1>Blade Style</h1>
+              <input
+                type="radio"
+                id="dagger"
+                name="blade"
+                value="dagger"
+                required
+              />
               <label for="dagger">Dagger</label><br />
               <input type="radio" id="sword" name="blade" value="sword" />
               <label for="sword">Sword</label><br />
@@ -179,24 +200,87 @@
               <input type="radio" id="resin" name="blade" value="resin" />
               <label for="resin">Resin Work</label><br />
             </div>
-          </div>
-          <br />
-          <div class="customOrderrow2">
-            <div class="row2Col2">
-              <p>Steel Type</p>
+            <br />
+
+            <div class="row2 col2">
+              <h1>Steel Type</h1>
               <input
                 type="radio"
                 id="monosteel"
                 name="steel"
                 value="monosteel"
+                required
               />
               <label for="monosteel">Monosteel</label><br />
 
-              <input type="radio" id="sanMai" name="steel" value="sanai" />
+              <input
+                type="radio"
+                id="sanMai"
+                name="steel"
+                value="sanai"
+              />
               <label for="sanmai">San Mai</label><br />
 
               <input type="radio" id="damascus" name="steel" value="damascus" />
               <label for="sword">Damascus</label><br />
+            </div>
+
+            <div class="row2 col3">
+              <h1>Handle Material</h1>
+              <input
+                type="radio"
+                id="burl"
+                name="handle"
+                value="burl"
+                required
+              />
+              <label for="burl">Stabilized Burl</label><br />
+
+              <input type="radio" id="micarta" name="handle" value="micarta" />
+              <label for="micarta">Micarta</label><br />
+
+              <input type="radio" id="hybrid" name="handle" value="hybrid" />
+              <label for="hybrid">Resin Hybrid</label><br />
+            </div>
+
+            <div class="row2 col4">
+              <h1>Handle Style</h1>
+              <input
+                type="radio"
+                id="full"
+                name="style"
+                value="full"
+                required
+              />
+              <label for="full">Full</label><br />
+
+              <input type="radio" id="hidden" name="style" value="hidden" />
+              <label for="hidden">Hidden</label><br />
+
+              <input type="radio" id="through" name="style" value="through" />
+              <label for="through">Through</label><br />
+            </div>
+
+            <div class="row2 col5">
+              <h1>Sheath</h1>
+              <input
+                type="radio"
+                id="leather"
+                name="sheath"
+                value="leather"
+              />
+              <label for="leather">Leather</label><br />
+
+              <input
+                type="radio"
+                id="scabbard"
+                name="sheath"
+                value="scabbard"
+              />
+              <label for="scabbard">Sword Scabbard</label><br />
+
+              <input type="radio" id="kydex" name="sheath" value="kydex" />
+              <label for="kydex">Kydex</label><br />
             </div>
           </div>
 
@@ -210,8 +294,8 @@
             <label for="name">Thickness</label>
             <input type="text" id="thickness" name="size" required />
           </div>
-          <br />
-          <input type="submit" value="Check Out" />
+          <br>
+          <button type="submit">Check out</button>
         </form>
       </div>
     </main>
@@ -237,7 +321,9 @@
         <h1 class="title">Nordland Forge</h1>
 
         <div class="flex-container">
-          <div class="footerList" name="home"><a href="index.html">Home</a></div>
+          <div class="footerList" name="home">
+            <a href="index.html">Home</a>
+          </div>
           <div class="footerList" name="about">
             <a href="about.html">About Us</a>
           </div>

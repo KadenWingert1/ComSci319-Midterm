@@ -111,9 +111,11 @@ ul {
   padding: 0.5em 0.5em;
   font-size: 22px;
   text-decoration: none;
-  margin: 40px;
   position: relative;
   display: inline-block;
+}
+.container{
+  display: inline;
 }
 
 .navbar-toggler-icon {
@@ -150,9 +152,17 @@ text-align: center;
 }
 .customOrderrow2{
   display: flex;
+  flex-wrap:wrap;
 }
-.row2Col1{
+.row2{
+  padding-top: 2em;
   padding-right: 5em;
+}
+.row2 h1{
+  font-size: 1.25em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:bold;
+  color: #990000;
 }
 
 /*Last rules for custom.html */
