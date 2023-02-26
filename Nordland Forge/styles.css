@@ -72,16 +72,15 @@ ul {
 /* Last rule for the cards */
 
 /* This is all for the Nav bar */
-.col-sm-8{
-  width: 20%;
-  height: auto;
-}
-.navFlexBox{
-  display:flex;
-  border: 10px;
-}
 
-
+.text-white{
+  text-align: left;
+  padding: 7px 14px;
+}
+.navul li{
+  display: grid;
+  float: left;
+}
 .credits, .about, .home {
   margin: 2em auto;
   width: 100px;
