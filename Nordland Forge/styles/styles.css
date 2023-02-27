@@ -35,7 +35,7 @@ ul {
 .motto {
   font-family: "Anton", sans-serif;
   padding: 0.75em;
-  background-image: url("background.png");
+  background-image: url("/images/background.png");
   margin-bottom: 0px;
 }
 #aboutLastParagraph {
