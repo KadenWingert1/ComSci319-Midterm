@@ -56,6 +56,9 @@ ul {
 .card-body {
   background-color: rgb(255, 253, 253);
 }
+.row{
+  margin: 0px;
+}
 .albumpy-5bg-light {
   background-color: #333333;
 }
@@ -104,7 +107,6 @@ ul {
 .credits:hover, .about:hover, .home:hover {
   background-position: 100% 100%;
 }
-
 
 .navbar-toggler {
   border-radius: 5px;

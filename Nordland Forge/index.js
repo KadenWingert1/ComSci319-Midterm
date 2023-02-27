@@ -10,7 +10,6 @@ function openNavBar() {
       logo.style.display = "block";
     }
   }
-
   /*Used to put user entered info into JSON*/
   const formEl = document.querySelector(".form");
   if(formEl){
