@@ -56,6 +56,10 @@ ul {
 .card-body {
   background-color: rgb(255, 253, 253);
 }
+.card-header {
+  background-color: rgb(255, 253, 253);
+  font-family: sans-serif;
+}
 .row{
   margin: 0px;
 }
