@@ -170,5 +170,67 @@ text-align: center;
   font-weight:bold;
   color: #990000;
 }
+.formContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.form h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.form .personalInfo {
+  margin-top: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.form .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.form .col-50 {
+  flex: 50%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.form .col-25 {
+  flex: 25%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.form .col-100 {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
 
 /*Last rules for custom.html */
