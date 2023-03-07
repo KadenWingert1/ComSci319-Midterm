@@ -32,6 +32,8 @@ function openNavBar() {
 // }
 // /*End of code for convertnig to JSON*/
 
+
+// Displays cards from data in data.json
 function displayData() {
   fetch('data.json')
     .then(response => response.json())
