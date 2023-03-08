@@ -5,9 +5,39 @@
   flex-wrap: wrap;
   color: rgb(250, 135, 135);
 }
+
+.story{
+  display: flexbox;
+}
 .mainContent {
   background-color: #d3d3d3;
 }
+
+/* These are for the images in the about page */
+.p1container{
+  display: flexbox;
+}
+.p2container{
+  display: flexbox;
+}
+.p3container{
+  display: flexbox;
+}
+figure{
+  float: right;
+  width: 20%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.25em;
+  padding: 0.25em;
+}
+#aboutP{
+flex-wrap: wrap;
+}
+/* These are the last of the images in the about page */
 
 /* These are for the footer */
 footer {
